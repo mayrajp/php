@@ -12,7 +12,7 @@ class MenuController extends Controller
 
      $personagens = array("Frodo", "Sam", "Merry","Pippin", "Aragorn", "Boromir", "Legolas", "Gimli", "Gandalf");
      $somaHabilidades = array(3, 7, 5, 4, 14, 13, 18, 11, 17);
-
+     
       return view('menu.index', compact('personagens', 'somaHabilidades'));
     }
 
@@ -21,7 +21,6 @@ class MenuController extends Controller
       $personagens = $request->input('personagemSelecionado');
       $pontosPersonagens = $request->input('ponto');
       return view('menu.associarArmas', compact('personagens', 'pontosPersonagens'));
-
     }
 
     public function gerarInimigos(Request $request){

@@ -10,15 +10,18 @@
       <nav class="navbar navbar-light bg-light">
         <h3>Lord of Rings - Battle Royale - Resultado da Batalha</h3>
       </nav>
-      <div class="row">
-        <div class="container">
-              <div class="form-group">
-                <div class="col-md-6 offset-md-3">
+      <div class="container">
+            <div class="row">
+                  <div class="col-md-12 offset-md">
+                    <div class="card" style="margin:50px 0">
+                      <div class="card-header">Resultado:</div>
                   <h1>{{$r}}</h1>
-                  <a style="margim-top: 50px" class="btn btn-info" href="{{ url ('/menu') }}" >Jogar Novamente</a>
+                  <a style="margim-top: 50px" class="btn btn-light" href="{{ url ('/menu') }}" >Jogar Novamente</a>
                 </div>
             </div>
           </div>
       </div>
     </div>
-      
+    </div>
+  </body>
+</html>

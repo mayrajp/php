@@ -10,9 +10,13 @@
       <nav class="navbar navbar-light bg-light">
         <h3>Lord of Rings - Battle Royale - Campo de Batalha</h3>
       </nav>
-    <div style="margin-top: 100px" class="container">
+      <div class="container">
+            <div class="row">
+                  <div class="col-md-12 offset-md">
+                    <div class="card" style="margin:50px 0">
+                      <div class="card-header">Inimigos que surgiram no campo de batalha:</div>
       <form class="col-lg-12" action="/menu/batalha" method="post">
-      <div class="row bg-light">
+      <div class="row">
         {{ csrf_field() }}
         <div style="margim-left:100px" class="col-lg-6">
           <h3>Seus personagens:</h3>
@@ -47,5 +51,7 @@
 </div>
 
   </div>
+</div>
+</div>
   </body>
 </html>
