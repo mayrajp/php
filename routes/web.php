@@ -22,14 +22,3 @@ Route::post('/menu/armas', ['uses' => 'MenuController@associarArma']);
 Route::post('/menu/inimigos', ['uses' => 'MenuController@gerarInimigos']);
 
 Route::post('/menu/batalha', ['uses' => 'MenuController@gerarResultadoBatalha']);
-//
-// Route::put('/menu', ['uses' => 'MenuController@editar']);
-
-// Route::post('/contato', function () {
-//   dd($_POST);
-//     return "Contato POST";
-// });
-// //alterar
-// Route::put('/contato', function () {
-//     return "Contato put";
-// });
