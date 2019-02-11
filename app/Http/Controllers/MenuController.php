@@ -90,11 +90,4 @@ class MenuController extends Controller
       return view('menu.resultadoBatalha')->with(['r' => $resultado]);
     }
 
-    // public function criar(Request $req){
-    //   dd($req);
-    //   return "Deu certo o criar";
-    // }
-    // public function editar(){
-    //   return "Deu certo o editar";
-    // }
 }
