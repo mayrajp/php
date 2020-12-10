@@ -68,7 +68,10 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Lord of Rings - Battle Royale
+                    Lord of Rings - Battle Royale 
+                </div>
+                <div class="title m-b-md">
+                    Version 1.2.0 
                 </div>
                 <div class="center links">
                     <a href="{{ url('/menu') }}">Iniciar Jogo</a>
