@@ -71,7 +71,7 @@
                     Lord of Rings - Battle Royale 
                 </div>
                 <div class="title m-b-md">
-                    Version 1.2.0 
+                    Version 3.2.0 
                 </div>
                 <div class="center links">
                     <a href="{{ url('/menu') }}">Iniciar Jogo</a>
